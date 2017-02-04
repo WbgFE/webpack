@@ -17,7 +17,7 @@ module.exports = {
     "description": {
       "type": "string",
       "required": false,
-      "message": "Project description",
+      "message": "项目描述",
       "default": "微办公Vue项目"
     },
     "author": {
@@ -42,15 +42,15 @@ module.exports = {
     },
     "router": {
       "type": "confirm",
-      "message": "Install vue-router?"
+      "message": "同时安装Vue-router?"
     },
     "ui": {
       "type": "confirm",
-      "message": "安装ElementUI?"
+      "message": "同时安装ElementUI?"
     },
     "lint": {
       "type": "confirm",
-      "message": "Use ESLint to lint your code?"
+      "message": "使用Eslint规范代码?"
     },
     "lintConfig": {
       "when": "lint",
